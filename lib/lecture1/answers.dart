@@ -27,9 +27,8 @@ class MainApp extends StatelessWidget {
       height: 400,
       color: Colors.red,
       child: Image.network(
-        'https://tlum.ru/uploads/22fa9437434982ea805c89581a59f5487dff254c222261114e9668c829225a9f.jpeg',
-        fit: BoxFit.fitHeight,
-      ),
+  'https://docs.flutter.dev/assets/images/dash/dash-fainting.gif',
+),
     );
   }
 
