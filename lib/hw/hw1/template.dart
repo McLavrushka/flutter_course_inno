@@ -28,7 +28,7 @@ class Lab1App extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Text(
-                'Task 1:',
+                'Задание 1:',
                 style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
               ),
               task1(),
@@ -36,7 +36,7 @@ class Lab1App extends StatelessWidget {
               Divider(),
               const SizedBox(height: 4),
               Text(
-                'Task 2:',
+                'Задание 2:',
                 style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
               ),
               task2(),
@@ -45,7 +45,7 @@ class Lab1App extends StatelessWidget {
               Divider(),
               const SizedBox(height: 4),
               Text(
-                'Task 3:',
+                'Задание 3:',
                 style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
               ),
               task3(),
@@ -53,7 +53,7 @@ class Lab1App extends StatelessWidget {
               Divider(),
               const SizedBox(height: 4),
               Text(
-                'Task 4:',
+                'Задание 4:',
                 style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
               ),
               task4(),
@@ -61,7 +61,7 @@ class Lab1App extends StatelessWidget {
               Divider(),
               const SizedBox(height: 4),
               Text(
-                'Task 5:',
+                'Задание 5:',
                 style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
               ),
               task5(),
@@ -69,7 +69,7 @@ class Lab1App extends StatelessWidget {
               Divider(),
               const SizedBox(height: 4),
               Text(
-                'Task 6:',
+                'Задание 6:',
                 style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
               ),
               task6(),
