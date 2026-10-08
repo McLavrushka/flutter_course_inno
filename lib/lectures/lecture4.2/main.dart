@@ -11,16 +11,16 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        appBar: AppBar(title: Text('Заголовок'),),
+        appBar: AppBar(title: Text('Заголовок')),
         body: SafeArea(
           child: Wrap(
             runSpacing: 10,
             runAlignment: WrapAlignment.spaceEvenly,
             children: [
-              Container(color: Colors.grey, width: 100, height: 200,),
-              Container(color: Colors.grey[200], width: 300, height: 100,),
-              Container(color: Colors.grey, width: 300, height: 200,),
-              Container(color: Colors.black, width: 400, height: 100,),
+              Container(color: Colors.grey, width: 100, height: 200),
+              Container(color: Colors.grey[200], width: 300, height: 100),
+              Container(color: Colors.grey, width: 300, height: 200),
+              Container(color: Colors.black, width: 400, height: 100),
             ],
           ),
         ),
