@@ -1,0 +1,32 @@
+[
+  {
+    "id": "1",
+    "title": "Мастер и Маргарита",
+    "subtitle": "Михаил Булгаков",
+    "category": "classic",
+    "description": "Роман о визите дьявола в Москву 1930-х и о любви Мастера и Маргариты.",
+    "image": "assets/images/master_and_margarita.jpg",
+    "year": 1967,
+    "tags": ["роман", "мистика"]
+  },
+  {
+    "id": "2",
+    "title": "Преступление и наказание",
+    "subtitle": "Фёдор Достоевский",
+    "category": "classic",
+    "description": "История студента Раскольникова, который решается на преступление и не может с ним жить.",
+    "image": "assets/images/crime_and_punishment.jpg",
+    "year": 1866,
+    "tags": ["роман", "психология"]
+  },
+  {
+    "id": "3",
+    "title": "Дюна",
+    "subtitle": "Фрэнк Герберт",
+    "category": "scifi",
+    "description": "Пустынная планета Арракис, борьба великих домов и юный Пол Атрейдес.",
+    "image": "assets/images/dune.jpg",
+    "year": 1965,
+    "tags": ["фантастика", "эпос"]
+  }
+]
