@@ -12,3 +12,16 @@ GeneratedPluginRegistrant.java
 key.properties
 **/*.keystore
 **/*.jks
+
+
+# кэш Hosting
+.firebase/
+ 
+# логи CLI
+firebase-debug.log
+ 
+# ключи сервисного
+# аккаунта
+*-firebase-adminsdk-*.json
+
+
