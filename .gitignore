@@ -43,6 +43,7 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
 lib/hw/hw1/answers.dart
 lib/hw/hw2/answer.dart
 lib/hw/hw3/domain/entities/book.dart
@@ -50,7 +51,7 @@ lib/hw/hw3/ui/app_colors.dart
 lib/hw/hw3/ui/screens/catalog_screen.dart
 lib/hw/hw3/ui/widgets/book_card.dart
 lib/hw/hw3/main.dart
-
+lib/lectures/lecture11/code/
 
 
 lib/hw/
