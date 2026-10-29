@@ -1,4 +1,4 @@
-import 'package:flutter_course_inno/lectures/lecture12/post_model.dart';
+import 'package:flutter_course_inno/lectures/lecture12.2/post_model.dart';
 
 sealed class PostsEvent {}
 

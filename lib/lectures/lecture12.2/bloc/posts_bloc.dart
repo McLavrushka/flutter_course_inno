@@ -3,7 +3,6 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_course_inno/lectures/lecture12.2/bloc/posts_event.dart';
 import 'package:flutter_course_inno/lectures/lecture12.2/bloc/posts_state.dart';
 import 'package:flutter_course_inno/lectures/lecture12.2/data/posts_repository.dart';
-import 'package:flutter_course_inno/lectures/lecture12.2/post_model.dart';
 
 class PostsBloc extends Bloc<PostsEvent, PostsState> {
   final PostsRepository _repository;
@@ -11,7 +10,13 @@ class PostsBloc extends Bloc<PostsEvent, PostsState> {
     on<PostsLoadRequested>(_onLoadRequested);
     on<PostLikeToggled>(_onLikeToggled);
     on<PostsFilterToggled>(_onFilterToggled);
-    on<PostAdded>((event, emit) => _repository.addPost(event.post as Post));
+    on<PostAdded>((event, emit) async {
+      try {
+        await _repository.addPost(event.post);
+      } catch (e) {
+        emit(PostsLoadFailure('Не удалось добавить: $e'));
+      }
+    });
 
   }
   Future<void> _onLoadRequested(

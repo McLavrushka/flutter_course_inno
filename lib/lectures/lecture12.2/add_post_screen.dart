@@ -46,11 +46,6 @@ class _AddPostScreenState extends State<AddPostScreen> {
             ),
             ElevatedButton(
               onPressed: () async {
-                // setState(() {
-                //   posts.add(post);
-                // });
-                titleController.clear();
-                bodyController.clear();
                 if (!mounted) return;
                 Navigator.pop(
                   context,
